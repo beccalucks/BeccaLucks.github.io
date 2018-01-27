@@ -6,7 +6,7 @@ html, body * {
 body {
   background: url(sitin.jpg) no-repeat center fixed; /*image source: https://bloximages.chicago2.vip.townnews.com/host.madison.com/content/tncms/assets/v3/editorial/0/6e/06e29fd6-3229-11df-835a-001cc4c03286/06e29fd6-3229-11df-835a-001cc4c03286.image.jpg*/
   background-size: contain;
-  background-color: #FAFAD2;
+  background-color: #E4F1FE;
 }
 @font-face {
   font-family: thisFont;
@@ -38,7 +38,7 @@ body {
       font-family: thisFont;
       text-align: center;
       margin-bottom: 3vw;
-      background-color: #b6cee2;
+      background-color: #E4F1FE;
     }
     .label {
       color: #00008B;
@@ -63,7 +63,7 @@ body {
       margin-top: 0;
       margin: 1rem;
       padding: 0;
-      background-color: #b6cee2;
+      background-color: #E4F1FE;
     }
     .twitter-timeline {
       margin-left: 5vw;
@@ -83,6 +83,7 @@ section {
     }
 #news_box p {
   font-size: 1.2rem;
+  background-color: #E4F1FE;
     }
 #tweetlistholder {
   flex: 0 0 45%;
@@ -99,7 +100,7 @@ position: relative;
 .tooltip .tooltiptext {
   visibility: hidden; /* The information block is hidden until you hover your mouse over it  */
   width: 500px;
-  background-color: #b6cee2;
+  background-color: #E4F1FE;
   color: black;
   text-align: left;
   margin-left: 1.5vh;
@@ -164,7 +165,7 @@ font-weight: lighter;
     .tooltip3 .tooltiptext3 {
         visibility: hidden;
         width: 1000px;
-        background-color: #b6cee2;
+        background-color: #E4F1FE;
         color: black;
         text-align: left;
         padding: 0;
@@ -225,7 +226,7 @@ font-weight: lighter;
         .tooltip5 .tooltiptext5 {
             visibility: hidden;
             width: 800px;
-            background-color: #b6cee2;
+            background-color: #E4F1FE;
             color: black;
             text-align: left;
             padding: 0;
