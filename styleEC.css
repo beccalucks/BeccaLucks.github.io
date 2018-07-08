@@ -1,0 +1,47 @@
+*, html {
+  margin: 1.5%;
+  font: Arial, Helvetica, sans-serif; sans-serif; Garamond, serif;
+  background-color: #FFEBCD;
+}
+h1, h2, h3, h4, footer {
+  text-align: center;
+  line-height: normal;
+}
+
+/* css for the piechart */
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+  stroke: bold;
+}
+
+/* for d3 tooltip */
+
+.d3-tip {
+     line-height: 1;
+     font-weight: bold;
+     padding: 10px;
+     background: rgba(0, 0, 0, 0.8);
+     color: #fff;
+     border-radius: 2px;
+   }
+
+#piechart {
+  text-align: center;
+}
+/* link is messing up formatting for some reason :(
+#link {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  text-transform: none;
+} */
+.plotlygraph {
+  margin: 0;
+  padding: 0;
+}
